@@ -64,3 +64,225 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+section {
+	display: flex;
+	justify-content: space-around;
+	padding: 30px;
+	align-items: flex-start;
+}
+
+
+.iod {
+	display: flex;
+	border: 2px solid red;
+	
+}
+ 
+.middlephoto {
+	display: flex;
+;
+
+}
+
+
+
+.button {
+	display: flex;
+	justify-content: space-around;
+}
+
+header {
+	border: 2px solid black;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+
+
+ .right {
+	 border: 2px solid blue;
+	display:flex;
+	align-content: flex-start;
+	justify-content: flex-start;
+	 }
+
+
+nav a {
+	display: inline-block;
+	width: 12%;
+	color: gray;
+
+}
+.top-section {
+	width: 75%;
+}
+.column {
+	width: 25%;
+}
+	  
+	  h2 {
+		  width: 100%;
+	  }
+	 
+
+.middle-img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 80%;
+}
+
+.Middle-Section{
+	display: inline-block;
+	margin: 2%;
+	width: 75%;
+	column-count: 3;
+	column-gap: 100px;
+}
+
+.Contact-Section{
+	display: inline-block;
+
+}
+
+footer {
+	text-align: center;
+}
+
+
+
+
+
+.flex-container{
+	display: flex;
+
+}
+
+
+
+
+.navbar {
+    color: gray;
+ 
+}
+
+section {
+	display: flex;
+	/* do not touch*/
+	flex-direction: column;
+	margin: auto
+}
+nav {
+	width: 100%
+
+}
+div {
+	display:flex;
+
+}
+
+.middlephoto {
+	display: flex;
+	width: 75%
+/*do not touch*/
+}
+
+.services-header-img {
+	display: flex;
+	justify-content: center;
+}
+
+header {
+	width: 100%
+
+}
+
+h1 {
+	font-size: 25px
+	
+}
+.line {
+	display:block;
+	margin-before: 0.5em;
+    margin-after: 0.5em;
+    margin-start: auto;
+    margin-end: auto;
+    overflow: hidden;
+    border-style: inset;
+	border-width: 1px;
+	}
+
+	.digitaldesign {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		padding: 30px;
+		width: 450px;
+		border: 2px solid black;
+		background-color: lightgray;
+		}
+
+.uxui {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		padding: 30px;
+		width: 450px;
+		border: 2px solid black;
+		margin-bottom: 20px;
+		background-color: lightgray;
+		
+}
+
+.digitalmarketing {
+	display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		padding: 30px;
+		width: 450px;
+		border: 2px solid black;
+		margin-bottom: 20px;
+		background-color: lightgray;
+}
+
+.webdevelopment {
+	display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		padding: 30px;
+		width: 450px;
+		border: 2px solid black;
+		margin-bottom: 20px;
+		background-color: lightgray;
+}
+
+.iosdevelopment {
+	display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		padding: 30px;
+		width: 450px;
+		border: 2px solid black;
+		margin-bottom: 20px;
+		background-color: lightgray;
+}
+
+.androiddevelopment {
+	display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		padding: 30px;
+		width: 450px;
+		border: 2px solid black;
+		margin-bottom: 20px;
+		background-color: lightgray;
+}
+
